@@ -51,7 +51,7 @@ def start(update, context):
 Hi {update.message.chat.first_name}, This bot can mirror all your links to Google drive!
 Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
-    update.effective_message.reply_photo("https://telegra.ph/file/2dbf73146ad6e77d70a8e.jpg", start_string, parse_mode=ParseMode.MARKDOWN)
+    update.effective_message.reply_photo("https://telegra.ph/file/02fd25f1ee23f2df0c3a7.jpg", start_string, parse_mode=ParseMode.MARKDOWN)
 
 
 @run_async
